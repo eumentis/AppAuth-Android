@@ -995,7 +995,7 @@ public class AuthorizationRequest extends AuthorizationManagementRequest {
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_DISPLAY, display);
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_LOGIN_HINT, loginHint);
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_PROMPT, prompt);
-        UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_STATE, state);
+        UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_STATE, "test");
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_NONCE, nonce);
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_SCOPE, scope);
         UriUtil.appendQueryParameterIfNotNull(uriBuilder, PARAM_RESPONSE_MODE, responseMode);
